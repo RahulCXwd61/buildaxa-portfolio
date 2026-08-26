@@ -102,7 +102,7 @@
     }
 
     .process-section__step-name {
-        font-size: 32px;
+        font-size: 1.7vw;
     }
 
     /* ============================== Featured Works Section ============================== */
@@ -689,7 +689,7 @@
     }
 
     .process-section__step-name {
-        font-size: 32px;
+        font-size: 2vw;
     }
 
     /* ============================== Featured Works Section ============================== */
@@ -1657,6 +1657,10 @@
         padding-top: 68px;
     }
 
+    .process-section__step-name {
+        font-size: 2.5vw;
+    }
+
     .process-section__title {
         font-size: 32px;
         margin-bottom: -10px;
@@ -1678,10 +1682,6 @@
 
     .services-accordion__name {
         font-size: 20px;
-    }
-
-    .process-section__step-name {
-        font-size: 32px;
     }
 
     /* ============================== Featured Works Section ============================== */
@@ -1767,10 +1767,6 @@
     .process-section__circle {
         width: 150px;
         height: 150px;
-    }
-
-    .process-section__step-name {
-        font-size: 26px;
     }
 
     .process-section__description {
@@ -2422,6 +2418,10 @@
         padding: 20px 24px;
     }
 
+    .process-section__step-name {
+        font-size: 20px;
+    }
+
     header .nav--text h5 {
         font-size: 14px;
         font-family: 'Inter';
@@ -2665,10 +2665,6 @@
 
     .blog-grid {
         grid-template-columns: repeat(2, 1fr);
-    }
-
-    .blog-card__image-box {
-        height: auto;
     }
 
     .footer-section {
@@ -2949,10 +2945,6 @@
         height: 120px;
     }
 
-    .process-section__step-name {
-        font-size: 24px;
-    }
-
     .process-section__number {
         font-size: 16px;
     }
@@ -3054,7 +3046,7 @@
 
     .blog-grid {
         grid-template-columns: 1fr;
-        gap: 20px;
+        gap: 40px;
     }
 
     .blog-section__title {

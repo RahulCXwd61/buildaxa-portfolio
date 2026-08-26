@@ -460,7 +460,7 @@ header .header--email--btn a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url('../images/banner-background.avif');
+    background-image: url('../images/banner-background.webp');
     background-size: cover;
     background-position: center bottom;
     background-repeat: no-repeat;
@@ -850,8 +850,8 @@ header .header--email--btn a:hover {
 }
 
 .clients-section__logo-img {
-    width: 100px;
-    height: 100px;
+    width: 60px;
+    height: 60px;
     object-fit: contain;
 }
 
@@ -1658,6 +1658,7 @@ header .header--email--btn a:hover {
     height: auto;
     object-fit: cover;
     border-radius: 8px;
+    max-height: 700px;
 }
 
 .intro--section {
@@ -1747,7 +1748,7 @@ header .header--email--btn a:hover {
 .service--detail-banner {
     position: relative;
     padding: 120px 0;
-    background: url('../images/client-background.avif') center/cover no-repeat;
+    background: url('../images/client-background.webp') center/cover no-repeat;
     color: #fff;
     overflow: hidden;
 }
@@ -1834,6 +1835,7 @@ header .header--email--btn a:hover {
     display: block;
     height: 100%;
     max-height: 425px;
+    object-fit: cover;
 }
 
 .service--detail-content__text-row {
@@ -2062,7 +2064,7 @@ header .header--email--btn a:hover {
 }
 
 .process-section__step-name {
-    font-size: 40px;
+    font-size: 1.5vw;
     font-weight: 600;
     color: var(--black);
     margin: 0;
@@ -2338,7 +2340,7 @@ header .header--email--btn a:hover {
 
 .testimonials {
     background-color: var(--black);
-    background-image: url('../images/client-background.avif');
+    background-image: url('../images/client-background.webp');
     background-size: cover;
     background-position: center;
     padding: 120px 0;
@@ -2975,6 +2977,7 @@ header .header--email--btn a:hover {
     display: flex;
     justify-content: space-between;
     transition: transform 0.3s ease;
+    align-items: center;
 }
 
 .footer-cta__link img {
@@ -3217,6 +3220,7 @@ header .header--email--btn a:hover {
     aspect-ratio: 1.96;
     margin-top: 35px;
     border-radius: 8px;
+    object-fit: cover;
 }
 .division-point{
     margin-top: 70px;
